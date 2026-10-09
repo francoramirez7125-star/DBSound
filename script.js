@@ -15,7 +15,7 @@ const PACKS = [
   {nombre:"Pack LITE", desc:"Rendimiento: (interior 80/90 Personas - Exterior 50/60 personas)", interior:90, exterior:60, items:["2 satelites SKP","1 Subwoofer EV 18Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
   {nombre:"Pack MID", desc:"Rendimiento: (interior 140/160 Personas - Exterior 90/100 personas)", interior:160, exterior:100, items:["2 satelites SKP","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
   {nombre:"Pack PLUS", desc:"Rendimiento: (interior 240 Personas - Exterior 150 personas)", interior:240, exterior:150, items:["2 satelites SKP","1 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
-  {nombre:"Pack ULTRA", desc:"Rendimiento: (interior 300/320 Personas - Exterior 180/200 personas)", interior:320, exterior:200, items:["2 satelites SKP","1 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
+  {nombre:"Pack ULTRA", desc:"Rendimiento: (interior 300/320 Personas - Exterior 180/200 personas)", interior:320, exterior:200, items:["2 satelites SKP","2 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
 ];
 /* ========================================================= */
 
