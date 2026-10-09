@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alquiler de audio para eventos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#" id="brand1"></a>
+    <nav><a href="#equipos">Nuestros equipos</a><a href="#packs">Packs</a><a href="#como">Cómo alquilar</a><a class="cta-s" href="#contacto">Pedir presupuesto</a><button class="theme" id="theme" type="button"></button></nav>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<div class="wrap">
+
+  <div class="hero">
+    <h1>El sonido de calidad que necesita tu evento.</h1>
+    <p>No alquilamos parlantes, alquilamos anécdotas para tu fiesta. Te lo llevamos, lo armamos y lo probamos antes de que lleguen tus invitados - Villaguay, Entre Rios.</p>
+    <a class="btn" href="#contacto">Pedir presupuesto</a><a class="btn alt" href="#equipos">Ver equipos</a>
+    <ul class="chips"><li>Instalación y prueba</li><li>Retiro incluido según zona</li><li>Equipo revisado en cada alquiler</li></ul>
+    <div class="meter" aria-hidden="true"></div>
+  </div>
+</div>
+
+<section id="equipos"><div class="wrap">
+  <h2>Nuestro equipo</h2>
+  <p class="lead">Todo el equipo se revisa antes de cada alquiler. Filtrá por categoría para ver lo que necesitás.</p>
+  <div class="filters" id="filters" role="group" aria-label="Filtrar por categoría"></div>
+  <div class="grid" id="grid"></div>
+</div></section>
+
+<section id="packs"><div class="wrap">
+  <h2>Packs armados</h2>
+  <p class="lead">Si no sabés qué elegir, estos packs cubren los casos más comunes.</p>
+  <div class="reco">
+    <label>Cantidad de personas<input id="r-personas" type="number" min="1" inputmode="numeric" placeholder="Ej: 120"></label>
+    <label>Lugar<select id="r-lugar"><option value="interior">Interior</option><option value="exterior">Exterior</option></select></label>
+    <p id="r-out" aria-live="polite"></p>
+  </div>
+  <div class="packs" id="packs-grid"></div>
+</div></section>
+
+<section id="como"><div class="wrap">
+  <h2>Cómo alquilar</h2>
+  <ol class="steps">
+    <li><div><strong>Contanos tu evento.</strong><br>Fecha, lugar, cantidad de personas y tipo de evento.</div></li>
+    <li><div><strong>Recibí tu presupuesto.</strong><br>Te recomendamos el equipo justo y te pasamos el precio final.</div></li>
+    <li><div><strong>Reservá la fecha.</strong><br>Se confirma con una seña.</div></li>
+    <li><div><strong>Instalamos y probamos.</strong><br>Llegamos antes del evento, armamos todo y retiramos al finalizar.</div></li>
+  </ol>
+</div></section>
+
+<section id="contacto"><div class="wrap">
+  <h2>Pedí tu presupuesto</h2>
+  <p class="lead">Completá los datos y se abre WhatsApp con tu consulta lista para enviar.</p>
+  <div class="quote">
+    <label>Nombre<input id="f-nombre" autocomplete="name"></label>
+    <label>Tipo de evento
+      <select id="f-tipo"><option>Fiesta Interior</option><option>Fiesta Quinta</option><option>Fiesta Aire Libre</option></select>
+    </label>
+    <label>Pack de interés<select id="f-pack"></select></label>
+    <label>Fecha<input id="f-fecha" type="date"></label>
+    <label>Cantidad aproximada de personas<input id="f-personas" type="number" min="1" inputmode="numeric"></label>
+    <label>Comentarios<textarea id="f-msg" rows="3"></textarea></label>
+    <button class="btn" id="send" type="button">Enviar por WhatsApp</button>
+    <p class="status" id="f-status" role="status"></p>
+  </div>
+</div></section>
+
+<footer><div class="wrap"><span id="brand2"></span> · Instalación y retiro incluidos según zona.</div></footer>
+
+<a class="wa" id="wa" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp"><svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg></a>
+
+<script src="script.js"></script>
+</body>
+</html>
