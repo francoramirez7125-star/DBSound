@@ -6,16 +6,16 @@ const CONFIG = {
 const EQUIPOS = [
   {nombre:"Consola Mixer Behringer", cat:"Consolas", specs:["Salidas balanceadas - Salidas maximo de señal profesionales +21 dBu"], precio:"$ consultar"},
   {nombre:"Procesadores DSP/Crossover Apogee", cat:"Consolas", specs:["Division y ecualizacion profesional de equipo"], precio:"$ consultar"},
-  {nombre:"Satelites SKP", cat:"Parlantes", specs:["Brinda el rango de voces e instrumentos a tu fiesta"], precio:"$ consultar"},
+  {nombre:"Satelites AmericanVox", cat:"Parlantes", specs:["Brinda el rango de voces e instrumentos a tu fiesta"], precio:"$ consultar"},
   {nombre:"Subwoofers 15Pulg American vox", cat:"Parlantes", specs:["Brinda el golpe seco del Kick que hace vibrar con fuerza el pecho"], precio:"$ consultar"},
   {nombre:"Subwoofers 18Pulg Electro voice", cat:"Parlantes", specs:["Crea la sensacion de terremoto de tu evento haciendo vibrar el piso con una calidad de boliche"], precio:"$ consultar"},
 ];
 // interior / exterior = máximo de personas que cubre cada pack (lo usa el recomendador)
 const PACKS = [
-  {nombre:"Pack LITE", desc:"Rendimiento: (interior 80/90 Personas - Exterior 50/60 personas)", interior:90, exterior:60, items:["2 satelites SKP","1 Subwoofer EV 18Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
-  {nombre:"Pack MID", desc:"Rendimiento: (interior 140/160 Personas - Exterior 90/100 personas)", interior:160, exterior:100, items:["2 satelites SKP","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
-  {nombre:"Pack PLUS", desc:"Rendimiento: (interior 240 Personas - Exterior 150 personas)", interior:240, exterior:150, items:["2 satelites SKP","1 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
-  {nombre:"Pack ULTRA", desc:"Rendimiento: (interior 300/320 Personas - Exterior 180/200 personas)", interior:320, exterior:200, items:["2 satelites SKP","2 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
+  {nombre:"Pack LITE", desc:"Rendimiento: (interior 80/90 Personas - Exterior 50/60 personas)", interior:90, exterior:60, items:["2 satelites AV","1 Subwoofer EV 18Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
+  {nombre:"Pack MID", desc:"Rendimiento: (interior 140/160 Personas - Exterior 90/100 personas)", interior:160, exterior:100, items:["2 satelites AV","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
+  {nombre:"Pack PLUS", desc:"Rendimiento: (interior 240 Personas - Exterior 150 personas)", interior:240, exterior:150, items:["2 satelites AV","1 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
+  {nombre:"Pack ULTRA", desc:"Rendimiento: (interior 300/320 Personas - Exterior 180/200 personas)", interior:320, exterior:200, items:["2 satelites AV","2 Subwoofer EV 18Pulg","2 Subwoofer AV 15Pulg","1 Consola Behringer","DSP/Crossover"], star:false},
 ];
 /* ========================================================= */
 
